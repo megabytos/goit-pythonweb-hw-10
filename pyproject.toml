@@ -2,15 +2,16 @@
 name = "goit-pythonweb-hw-10"
 version = "0.1.0"
 description = ""
+package-mode = false
 authors = ["Alex Goliansky <alx5@ukr.net>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-fastapi = {extras = ["standard"], version = "^0.115.6"}
 asyncpg = "^0.30.0"
 sqlalchemy = "^2.0.37"
 alembic = "^1.14.0"
+fastapi = {extras = ["standard"], version = "^0.115.6"}
 python-dotenv = "^1.0.1"
 python-jose = {extras = ["cryptography"], version = "^3.3.0"}
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}

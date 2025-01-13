@@ -13,4 +13,4 @@ COPY . /app
 
 EXPOSE 8000
 
-CMD alembic upgrade head && fastapi run --host 0.0.0.0
+CMD alembic upgrade head && fastapi run
